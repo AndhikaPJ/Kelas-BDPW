@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
 
 
 h2,
@@ -8,8 +25,33 @@ h3 {
     color: #00a2c6;
 }
 
+
+div#content {
+    background-color: rgb(236, 233, 233);
+    padding: 20px 15px;
+}
+
+#content>h2 {
+    background-color: #4c5450;
+    padding: 15px;
+    color: white;
+}
+
+#content>h3 {
+    background-color: #60d0a8;
+    padding: 15px;
+    color: white;
+}
+
+#content>p {
+    background-color: hsl(56, 62%, 85%);
+    padding: 20px;
+}
+
 footer {
     padding: 20px;
     color: white;
     background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
 }
